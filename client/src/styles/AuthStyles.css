@@ -1,0 +1,55 @@
+/*==============  ergister page  =============*/
+.form-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    flex-direction: column;
+    background: rgb(69, 69, 69);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    
+  }
+  .form-container form {
+    box-shadow: rgba(0,0,0,0.35)0px 5px 15px;
+    padding: 20px;
+  
+    
+  }
+  .form-container form .title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: "playfair Display" , serif;
+  }
+  .form-container form input {
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 100px;
+  }
+  .form-container form button {
+    border-radius: 0px;
+    background:linear-gradient( to right,#ffe998,#57370d);
+    font-family:'Playfair Display',serif;
+    font-size: 27px;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 0px solid rgb(69, 69, 69);
+    width: 250px;
+  }
+  
+  .form-container form button:hover{
+    border: 0px solid rgb(69, 69, 69);
+    box-shadow: rgba(0,0,0,0.35) 5px 5px 5px;
+  }
+  .title-of-register{
+    background:linear-gradient( to right,#ffe998,#57370d);
+    font-family:'Playfair Display',serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}
